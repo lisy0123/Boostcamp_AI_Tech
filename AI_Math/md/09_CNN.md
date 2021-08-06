@@ -1,5 +1,15 @@
 # CNN
 
+- **CNN: Convolution Neural Network, 합성곱신경망**
+
+  데이터의 특징을 추출하여 특징들의 패턴을 파악하는 구조
+
+  Convolution과정과 Pooling과정을 통해 진행
+
+  Convolution Layer와 Pooling Layer를 복합적으로 구성하여 알고리즘 만듬
+
+  정보추출, 문장분류, 얼굴인식
+
 - **다층신경망(MLP)**: 각 뉴런들이 선형모델과 활성함수로 모두 연결된 (fully connected) 구조
 
   <img src="https://user-images.githubusercontent.com/60209937/128470348-45a07d8a-05c5-414a-a03e-593168899ef3.png" alt="1" style="zoom: 40%;" />
@@ -70,7 +80,7 @@
   &=\left[f * g^{\prime}\right](x)
   \end{aligned}$
 
-  Discrete 일 때도 마찬가지로 성립
+- Discrete 일 때도 마찬가지로 성립
 
   <img width="377" src="https://user-images.githubusercontent.com/60209937/128468111-2a2ebf70-45f8-4c3a-bd70-74271e7fe495.png" style="zoom:50%;" >
 
@@ -89,3 +99,9 @@
     $\frac{\partial \mathcal{L}}{\partial w_{i}}=\sum_{j} \delta_{j} x_{i+j-1}$
 
   - 각 커널에 들어오는 모든 그레디언트를 더하면 결국 convolution 연산과 같음
+
+> **Pooling**
+>
+> Convolution 과정을 거친 레이어의 사이즈를 줄여주는 과정
+>
+> 단순히 데이터의 사이즈 줄여주고 노이즈를 상쇄시키고 미세한 부분에서 일관적인 특징 제공
