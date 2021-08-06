@@ -15,6 +15,10 @@ Collection of **[boost camp AI](https://boostcamp.connect.or.kr/program_ai.html)
 
 ### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/AI_Math)
 
+<details>
+  <summary> More... </summary>
+  <div markdown="1">
+
 [1. 백터](https://github.com/lisy0123/Boostcamp_AI/blob/main/AI_Math/01_%EB%B2%A1%ED%84%B0.pdf)
 
 [2. 행렬](https://github.com/lisy0123/Boostcamp_AI/blob/main/AI_Math/02_%ED%96%89%EB%A0%AC.pdf)
@@ -34,6 +38,9 @@ Collection of **[boost camp AI](https://boostcamp.connect.or.kr/program_ai.html)
 [9. CNN](https://github.com/lisy0123/Boostcamp_AI/blob/main/AI_Math/09_CNN.pdf)
 
 [10. RNN](https://github.com/lisy0123/Boostcamp_AI/blob/main/AI_Math/10_RNN.pdf)
+
+  </div>
+</details>
 
 ### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/Python_Basic_for_AI)
 
