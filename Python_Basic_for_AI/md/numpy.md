@@ -73,22 +73,19 @@
 - operations b/w arrays
 
   - element-wise (same shape)
-
   - dot product
-
   - broadcasting (different shape)
-
   - all & any
 
-    ```python
-    a = np.arange(10)
-    np.all(a < 4)
-    # False
-    np.any(a < 4)
-    # True
-    # return: boolean array
-    # numpay array끼리 비교 시, 역시 return boolearn array
-    ```
+  ```python
+  a = np.arange(10)
+  np.all(a < 4)
+  # False
+  np.any(a < 4)
+  # True
+  # return: boolean array
+  # numpay array끼리 비교 시, 역시 return boolearn array
+  ```
 
 - np.where
 
@@ -107,14 +104,14 @@
 
   - array 내 최대(최소)값의 index 반환
 
-    ```python
-    a = np.array([1, 2, 3, 5, 7, 30])
-    np.argmax(a), np.argmin(a)
-    # (5, 0)
-    a = np.array([[1,2,4,7],[9,88,6,45],[9,76,3,4]])
-    np.argmax(a, axis=1), np.argmin(a, axis=0)
-    # (array([3, 1, 1]), array[0, 0, 2, 2])
-    ```
+  ```python
+  a = np.array([1, 2, 3, 5, 7, 30])
+  np.argmax(a), np.argmin(a)
+  # (5, 0)
+  a = np.array([[1,2,4,7],[9,88,6,45],[9,76,3,4]])
+  np.argmax(a, axis=1), np.argmin(a, axis=0)
+  # (array([3, 1, 1]), array[0, 0, 2, 2])
+  ```
 
 - fancy index
 
