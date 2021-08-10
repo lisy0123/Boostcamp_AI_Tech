@@ -52,3 +52,81 @@
   - sort_values()
   - corr(): correlation
   - value_counts()
+
+-  Groupby
+
+  - SQL groupby 명령어와 동일
+  - split - apply - combine 과정을 거쳐 연산
+
+  ```python
+  # groupby(묶음의 기준 컬럼)[적용받는 컬럼].적용받는 연산
+  df.groupby("Team")["Points"].sum()
+  ```
+
+- apply 유형
+
+  - aggregation: 요약된 통계정보 추출 ex. sum, mean
+  - transformation: 해당 정보 변환 ex. lambda
+  - filtration: 특정 정보 제거 (필터링)
+
+  ```python
+  grouped.agg(sum)
+  grouped.agg(np.mean)
+  
+  # normalize
+  score = lambda x: (x - x.mean()) / x.std()
+  grouped.transform(socore)
+  
+  df.groupby("Team").filter(lambda x: x["Points"].max() > 700)
+  ```
+
+- Pivot table
+
+  - index 축은 groupby와 동일
+  - column에 추가로 labeling 값 추가
+  - value에 numeric type 값을 aggregation
+
+  ```python
+  # 값: duration
+  df.pivot_table([duration],
+                 index=[df.month, df.item],
+                 columns=df.network,
+                 aggfunc="sum",
+                 fill_value=0)
+  ```
+
+- merge & concat
+
+  ```python
+  pd.merge(df_a, df_b, on='subject_id')
+  # pd.merge(df_a, df_b, left_on='subject_id', right_on='id', how='right')
+  # join: inner, left, right, full
+  pd.concat([df_a, df_b])
+  ```
+
+- persistence
+
+  - db 연결 conn을 사용해 dataframe 생성
+
+    ```python
+    import sqlite3
+    
+    conn = sqlite3.connet('./data.db')
+    cur = conn.cursor()
+    cur.execute('select * from airlines limit 5;')
+    res = cur.fetchall()
+    # tuple 형태로 나옴
+    df_airlines = pd.read_sql_query('select * from airlines;', conn)
+    ```
+
+  - XLS
+
+    - openpyxls, XlsxWrite
+
+    ```python
+    writer = pd.ExcelWriter('./df_routes.xlsx', engine='xlswriter')
+    df_routes.to_excel(writer, sheet_name='Sheet1')
+    df_routes.to_pickle('./df_routes.pickle')
+    ```
+
+    
