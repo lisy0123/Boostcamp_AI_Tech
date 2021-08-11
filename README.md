@@ -1,6 +1,6 @@
-# Boostcamp_AI
+# Boostcamp_AI_Tech
 
-Collection of **[boost camp AI](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR) 
+Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR) 
 
 > [Group Git(Private)](https://github.com/hbseo/ONE-AI)
 
