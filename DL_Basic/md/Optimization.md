@@ -58,11 +58,95 @@
 
 - **Cross-validation**(교차검증)
 
+  특정한 테스트 데이터셋에 과적합 문제, 테스트 데이터가 고정되어 있기 때문
+
+  => 데이터 중 일부분을 테스트 데이터로 두지 앟ㄴ고 데이터의 모든 부분 사용, 교차 검증
+
+  => 성능 검증
+
   Model validation technique for assessing how the model will generalize to an independent (test) data set
 
-  <img width="508" alt="image3" src="https://user-images.githubusercontent.com/60209937/128796098-84291806-3cb0-428c-9845-d4c6851a5da6.png" style="zoom:75%;" >
+  - **K-fold Cross-validation**
 
-  하이퍼파라미터를 최적으로 tune하기 위한 validation data를 떼놓지 않고, train data를 k개로 나눠 하나씩 번갈아서 validation fold로 활용
+    <img src="https://user-images.githubusercontent.com/60209937/129023051-317bd25f-45df-4066-88d3-d4aec5041fe4.png" alt="image1" style="zoom:75%;" />
+
+    전체 데이터 셋 K등분의 부분집합으로 분할
+
+    K - 1개의 부분집합은 학습 데이터셋, 나머지 1개의 부분집합은 테스트 데이터셋 할당
+
+    교차 검증 총 K번만큼 반복
+
+  - **Hold-out Calidation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023054-3d03b382-9719-4f5f-be9c-0868cce0f092.png" alt="image2" style="zoom:75%;" />
+
+    전체 데이터셋을 학습 데이터셋과 테스트 데이터셋으로 나눔
+
+    분리된 학습 데이터셋에서 다시 검증 데이터셋을 따로 떼어내어 교차 검증
+
+    장점: 교차 검증을 한 번만 진행 => 계산 시간 적음
+
+  - **Leave-one-out Cross-validation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023058-ad9938f3-9bf3-4fc7-9261-ddffd289287d.png" alt="image3" style="zoom:75%;" />
+
+    전체 N개의 샘플 데이터셋을 N-1개의 학습 데이터셋과 1개의 테스트 데이터셋으로 나눔
+
+    총 N번만큼 교차 검증 반복
+
+    단점: 계산량이 많음
+
+  - **Leave-p-out Cross-validation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023063-edafe120-f310-46f1-8074-e9b1edc46874.png" alt="image4" style="zoom:80%;" />
+
+    전체 N개의 샘플 데이터셋을 N-p개의 학습 데이터셋과 p개의 테스트 데이터셋으로 나눔
+
+    총 nCp번만큼 교차 검증 반복
+
+    Leave-one-out 교차 검증 기법보다 더 계산량 많음 => 교차 검증 반복 횟수를 늘리고자 할 때 사용
+
+  - **Stratified K-fold Cross-validation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023064-eafc86a5-5a70-4934-adfc-cd64a2464eef.png" alt="image5" style="zoom:85%;" />
+
+    데이터 label 분포까지 고려해서 각 fold의 라벨분포가 전체 데이터의 라벨분포에 근사해서 훈련 및 검증
+
+    label 분포, 불균형한 상태 검증 => 오류 일으킴
+
+    => 주로 classification에서 사용
+
+  - **Shuffle-split Cross-validation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023068-676620c5-3585-4cd4-90b6-19c03e61801e.png" alt="image6" style="zoom:80%;" />
+
+    train dateset과 test dataset을 랜덤하게 나누고 반복
+
+    랜덤 => 어떤 fold는 여러 번 선택, 한번도 선택되지 않은 fold 발생
+
+  - **Nested Cross-validation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023072-a26f5ad1-49d0-427e-b677-2fc04a0776be.png" alt="image7" style="zoom:65%;" />
+
+    기존 교차검증 중첩
+
+    outer loop에서 기존 validation set 나누는 것 대신, testset을 다양한 fold로 나눠서 구성
+
+    outer loop에서 생성된 train set에 inner loop 적용
+
+    => train set + validation set으로 나눠서 검증, 파라미터 튜닝
+
+    최적의 파라미터 통해 outerloop에서 생성된 test set으로 평가
+
+  - **Time-series Cross-validation**
+
+    <img src="https://user-images.githubusercontent.com/60209937/129023075-86e95e59-978f-4d3e-b92e-5112230b47c5.png" alt="image8" style="zoom:67%;" />
+
+    시계열 데이터 경우, 시간정보 결과에 영향
+
+    high variance 띔 => over-fitting 발생
+
+    => validation / test set에 train set보다 미래 데이터 사용 => 합리적 검증
 
 - **Bias and Variance**
 
@@ -318,10 +402,16 @@
 
     Radomly set some neurons to zero (무작위로 일부 노드들을 생략하여 학습을 진행)
 
+    드롭아웃 $p=0.5$ => 50%의 뉴런 비활성화
+
+    각각 뉴런들이 좀 더 robust한 feature를 잡을 수 있음
+
+    => 모델의 generalization performance 올라감
+
     **over-fitting을 막음**
-
+  
     매번 다른 형태의 노드로 학습 => 여러 형태의 네트워크를 생성하는 **앙상블 효과**
-
+  
   - **Batch normalization**
 
     $\begin{aligned}
@@ -335,9 +425,9 @@
     Learning rate 을 너무 높게 잡은 경우, gradient vanishing/exploding 가 발생
 
     => Batch Normalization을 통해 parameter scale 영향 제거, learning rate를 크게 잡을수 있음, 빠른 학습을 가능
-
+  
     regularization 효과, Dropout와 같은 효과(Dropout의 경우 효과는 좋지만 학습속도가 다소 느려짐)
-
+  
     => Dropout을 제거, 학습속도 향상
-
+  
     

@@ -2,9 +2,13 @@
 
 ## :book: Assignment
 
- **문제 총 개**
+ **문제 총 5개**
 
 1. MLP Assignment: 강의 복습
+2. Optimization Assignmet: 강의 복습
+3. CNN Assignment: 강의 복습
+4. 
+5. 
 
 ## :handshake: ​Peer Session
 
@@ -30,20 +34,51 @@
 <details>
   <summary><b> Day02 </b></summary>
   <div markdown="1">
+- 논문과 아티클 공유
 
-- 
+  https://blog.naver.com/PostView.nhn?blogId=winddori2002&logNo=221850530979 (Cross Validation 관련 포스트)
+
+  https://www.youtube.com/watch?v=AA621UofTUA (나동빈 님의 Attention is all you need 리뷰)
+
+  Transformer : Attention is all you need
+
+- 논문을 꼭 수학적이로 이해해야 할까
+
+  - 논문을 정독하고 완벽하게 이해할 시간적 여유가 부족하다면 논문에 대한 리뷰 포스트를 활용하는 것도 방법 가능
+  - 정말 급할 경우 abstract만 읽는 것도 고려 가능
+
+- 위클리 멘토링 타임 정하기
+
+  - 개인멘토링 시간, 팀 멘토링 시간과 면담 주제 고민
+
   </div>
   </details>
-  
 
 <details>
   <summary><b> Day03 </b></summary>
   <div markdown="1">
 
-- 
+- AlexNet 논문 추천: https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+
+- 오늘 내용은 꽤 많은 모델에 대해 들었지만 흐름과 각각 모델의 특징 정도만 이해하자!
+
+- AlexNet과 Desnet 성능 차이 => Desnet은 도메인에 따른 데이터에 따라 성능이 달랐다는 의견
+
+- 주말에 각자 시간에 따라 Pytorch를 통한 AlexNet등의 모델을 1번 구성해보는 실습 제안
+
+- 추후에 할 일
+
+  - 이번 주 선택 과제 직접 해결 및 의견 나누기
+
+  - Pytorch 익숙해지기
+
+  - 앞으로 대회에 따른 git 협업 맞추기 위한 rule 정하기
+
   </div>
   </details>
-  
+
+- </div>
+  </details>
 
 <details>
   <summary><b> Day04 </b></summary>
@@ -53,13 +88,13 @@
   
   </div>
   </details>
-  
 
 <details>
   <summary><b> Day05 </b></summary>
   <div markdown="1">
 
 - 
+
   </div>
   </details>
 

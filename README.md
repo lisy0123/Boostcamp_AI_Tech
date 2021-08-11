@@ -2,7 +2,9 @@
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR) 
 
-> [Group Git(Private)](https://github.com/hbseo/ONE-AI)
+> [Group Git (Private)](https://github.com/hbseo/ONE-AI)
+>
+> [PDF, codes (Private)]()
 
 ## :one: Week01
 
@@ -42,5 +44,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ## :three: Week03
 
-:label:Updating...
+:label: Updating...
 
+
+
+[↩️ Go Back](https://github.com/lisy0123/Study)
