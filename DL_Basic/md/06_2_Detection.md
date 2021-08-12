@@ -35,7 +35,7 @@ classification, localization 문제
     BBox Regressor로 정확하지 않은 bounding box 위치 조정
 
   - 성능 뛰어남
-  - But, 시간 오래 걸림, 복잡, End-to-end learning 불가능
+  - But, 시간 오래 걸림, 복잡, End-to-end learning(종단간(처음부터 끝까지, 입력에서 출력까지 파이프라인 네트워크 없이 한 번에 처리) 기계학습) 불가능
 
 - **SPPNet (Spatial Pyramid Pooling Network)**
 
@@ -55,7 +55,7 @@ classification, localization 문제
 
   - **Multi-stage Detector**
 
-    구조 R_CNN와 다름
+    구조 R-CNN와 다름
 
     But, 3가지 pipeline(CNN, SVM, BBox Regressor)으로 이루어진 Multi-stage detector은 같음
 
