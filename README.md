@@ -4,7 +4,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 > [Group Git (Private)](https://github.com/hbseo/ONE-AI)
 >
-> [PDF, codes (Private)]()
+> [PDF, codes (Private)](https://github.com/lisy0123/Boostcamp_AI_Tech_ETC)
 
 ## :one: Week01
 
