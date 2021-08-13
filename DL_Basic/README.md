@@ -11,8 +11,8 @@
 | 6-2  | [**Detection**](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/DL_Basic/06_2_Detection.pdf) |
 |  7   | **[RNN](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/DL_Basic/07_RNN.pdf)** |
 |  8   | **[Transformer](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/DL_Basic/08_Transformer.pdf)** |
-|  9   |                                                              |
-|  10  |                                                              |
+|  9   | **[Generative Models 1](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/DL_Basic/09_Generative_Models_1.pdf)** |
+|  10  | **[Generative Models 2](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/DL_Basic/10_Generative_Models_2.pdf)** |
 
 
 
