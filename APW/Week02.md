@@ -127,7 +127,11 @@
   <summary><b> Day05 </b></summary>
   <div markdown="1">
 
-- :label: Updating...
+- 스페셜 피어세션 후기
+
+- 팀 2주차 회의록
+
+- 선택과제 1번 공유
 
   </div>
   </details>
