@@ -79,15 +79,16 @@
   </div>
   </details>
 
-
 <details>
   <summary><b> Day04 </b></summary>
   <div markdown="1">
-- vim 관련 사이트 추천
-  
-  - https://subicura.com/2017/11/22/mac-os-development-environment-setup.html#%EA%B7%B8%EB%9E%98%EC%84%9C
-  
-  - https://programmingsummaries.tistory.com/390
+
+
+  - vim 관련 사이트 추천
+
+    https://subicura.com/2017/11/22/mac-os-development-environment-setup.html#%EA%B7%B8%EB%9E%98%EC%84%9C
+
+    https://programmingsummaries.tistory.com/390
 
 - layer normalization 논문
 
@@ -126,14 +127,20 @@
   <summary><b> Day05 </b></summary>
   <div markdown="1">
 
-- 
+- :label: Updating...
 
   </div>
   </details>
 
 ## :card_index_dividers: Weekly Review
 
+저번 주에 비해 강의는 적었으나, 강의에 생략되는 내용들이 꽤 있어도 생각보다 공부량이 많았던 주 같다.
 
+탄탄하게 기초를 다진다는 기분이었고, 처음 강의를 들었을 때는 몰라도 공부하고 다시 강의를 들으면 무슨 말인지 이해할 수 있었는데, 이런 부분에서 기분이 좋았다. 조금씩 성장해나가다보면 어느새 앞지르기도 하니까, 꾸준히 열심히 공부해야겠다는 생각이 들었다.
+
+이번 주 선택 과제는 개인적으로는 너무 어려웠고, 일단 논문부터 뜯어봐야겠다는 생각에, 주말 동안 북마크해둔 논문들을 읽어보기로 했다. 피어세션, 스페셜 피어세션 모두 특별한 불호 없이 무난했다.
+
+이번 주도 수고 많았고, 다음 주에도 이번 주보다 조금 더 발전했으면 좋겠다.
 
 
 
