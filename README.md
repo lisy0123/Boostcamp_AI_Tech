@@ -44,6 +44,17 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ## :three: Week03
 
+<details>
+  <summary><b> Schedule </b></summary>
+  <div markdown="1">
+    <img src="https://github.com/lisy0123/Boostcamp_AI/blob/main/Schedule/week03.png"/>
+  </div>
+</details>
+
+
+
+
+
 :label: Updating...
 
 
