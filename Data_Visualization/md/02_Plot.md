@@ -10,14 +10,14 @@
 
 - multiple bar plot
 
-  <img src="https://user-images.githubusercontent.com/60209937/128669394-c7350bef-82e6-437a-aa3b-d6dbb163afd9.png" alt="1" style="zoom:90%;" />
+  <img src="https://user-images.githubusercontent.com/60209937/128669394-c7350bef-82e6-437a-aa3b-d6dbb163afd9.png" alt="1" style="zoom:60%;" />
 
 
 
 
 - stacked bar plot
 
-  <img width="367" src="https://user-images.githubusercontent.com/60209937/128669398-255fa3a2-1fb6-46dc-8d53-c4993ecf6f11.png" style="zoom: 70%;" >
+  <img width="367" src="https://user-images.githubusercontent.com/60209937/128669398-255fa3a2-1fb6-46dc-8d53-c4993ecf6f11.png" style="zoom: 50%;" >
 
   - 각 bar에서 나타나는 그룹의 순서 항상 유지
 
@@ -27,13 +27,13 @@
 
   - 2개의 그룹이 positive/negative라면 축 조정 가능
 
-    <img width="669"  src="https://user-images.githubusercontent.com/60209937/128669399-f7d5e147-e1b9-4a91-8295-ccc49ea167c1.png" style="zoom:60%;" >
+    <img width="669"  src="https://user-images.githubusercontent.com/60209937/128669399-f7d5e147-e1b9-4a91-8295-ccc49ea167c1.png" style="zoom:50%;" >
 
   - 응용하여 전체에서 비율을 나타내는 percentage stacked bar chart 있음
 
 - overlapped bar plot
 
-  <img width="386" src="https://user-images.githubusercontent.com/60209937/128669402-43502009-57b1-4c51-81c9-da1b11a98bab.png" style="zoom:70%;" >
+  <img width="386" src="https://user-images.githubusercontent.com/60209937/128669402-43502009-57b1-4c51-81c9-da1b11a98bab.png" style="zoom:50%;" >
 
   - 2개 겹쳐서, 3개 이상은 파악 어려움
   - 같은 축 사용 => 비교 쉬움
@@ -42,7 +42,7 @@
 
 - grouped bar plot
 
-  <img width="381"  src="https://user-images.githubusercontent.com/60209937/128669405-e3f30465-dc29-4475-b458-06fefc950fc0.png" style="zoom:70%;" >
+  <img width="381"  src="https://user-images.githubusercontent.com/60209937/128669405-e3f30465-dc29-4475-b458-06fefc950fc0.png" style="zoom:50%;" >
 
   - 그룹별 범주에 따라 이웃되게 배치
 
@@ -122,7 +122,7 @@
 
 - 시시각각 변동하는 데이터 => noise로 패턴, 추세 파악 어려움
 
-  <img width="708" alt="5" src="https://user-images.githubusercontent.com/60209937/128814631-4ccd8ad1-b772-41bb-9e48-5ddcf1666fe0.png" style="zoom:60%;" >
+  <img width="708" alt="5" src="https://user-images.githubusercontent.com/60209937/128814631-4ccd8ad1-b772-41bb-9e48-5ddcf1666fe0.png" style="zoom:50%;" >
 
   => noise의 인지적인 방해를 줄이기 위해 **smoothing** 사용
 
@@ -158,16 +158,57 @@
 
 - 범례 대신, 라인 끝 단에 레이블 추가 시, 식별 도움
 
-  <img width="462" src="https://user-images.githubusercontent.com/60209937/128815387-3416a7fb-031d-459f-bfaf-814a1f685f6c.png" style="zoom:70%;" >
+  <img width="462" src="https://user-images.githubusercontent.com/60209937/128815387-3416a7fb-031d-459f-bfaf-814a1f685f6c.png" style="zoom:50%;" >
 
 - min/max, 등 마크, 텍스트, 등 일부 추가 시 도움
 
-  <img width="814" src="https://user-images.githubusercontent.com/60209937/128815392-7c91ca06-67da-433f-b6a3-6a0c23d54ae1.png" style="zoom:60%;" >
+  <img width="814" src="https://user-images.githubusercontent.com/60209937/128815392-7c91ca06-67da-433f-b6a3-6a0c23d54ae1.png" style="zoom:50%;" >
 
 - 연한 색으로 uncertainty 표현 가능 (신뢰구간, 분산)
 
-  <img width="422" src="https://user-images.githubusercontent.com/60209937/128815397-c1c873a0-2b52-4f0f-af24-e53a68e94e6d.png" style="zoom:60%;" >
+  <img width="422" src="https://user-images.githubusercontent.com/60209937/128815397-c1c873a0-2b52-4f0f-af24-e53a68e94e6d.png" style="zoom:50%;" >
 
 ## Scatter Plot
 
-:label: Updating...
+- 산점도
+
+- 두 feature 간의 관계 알기 위해
+
+- 점의 색, 모양, 크기 variation 사용 가능
+
+- 목적: 상관 관계 확인 (+/-/없음)
+
+  <img width="1141" src="https://user-images.githubusercontent.com/60209937/129467742-1ad67007-d6c1-4626-b649-38a7cf445eed.png" style="zoom:40%;" >
+  <img width="1022" src="https://user-images.githubusercontent.com/60209937/129467744-fdc35ae9-a5ec-4f0a-9792-00e40e281496.png" style="zoom:50%;" >
+
+- Overplotting
+
+  점 많아짐 => 점 분포 파악 어려움
+
+  - 투명도 조정
+  - 지터링 (jittereing): 점 위치 약간씩 변경
+  - 2차원 히스토그램: 히트맵 사용, 깔끔한 시각화
+  - Contour plot: 분포, 등고선 사용하여 표현
+
+  <img width="856" src="https://user-images.githubusercontent.com/60209937/129467803-e3e20b9a-d278-4417-8bca-3afe3d2210f1.png" style="zoom:50%;" >
+
+- 색: 연속 - gradient / 이산 - 개별 색상
+
+- 마커: 구별 어려움, 크기 안 고름
+
+- 크기
+
+  버블 차트(bubble chart), 구별 쉬움, 오용 쉬움
+
+  관계보다 각 점간 비율 초점, SWOT 분석에 활용 가능
+
+- 인과 관계(causal relation) / 상관 관계(correlation)
+
+- **추세선**: scatter 패턴 유추 가능
+
+  2개 이상 시, 가독성 떨어짐
+
+- grid는 지양, 사용 시 최소한, 색: 무채색
+
+- 범주형 포함 관계: **heatmap, bubble chart** 추천
+

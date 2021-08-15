@@ -68,7 +68,7 @@
 
   - **K-fold Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023051-317bd25f-45df-4066-88d3-d4aec5041fe4.png" alt="image1" style="zoom:75%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023051-317bd25f-45df-4066-88d3-d4aec5041fe4.png" alt="image1" style="zoom:60%;" />
 
     전체 데이터 셋 K등분의 부분집합으로 분할
 
@@ -78,7 +78,7 @@
 
   - **Hold-out Calidation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023054-3d03b382-9719-4f5f-be9c-0868cce0f092.png" alt="image2" style="zoom:75%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023054-3d03b382-9719-4f5f-be9c-0868cce0f092.png" alt="image2" style="zoom:60%;" />
 
     전체 데이터셋을 학습 데이터셋과 테스트 데이터셋으로 나눔
 
@@ -88,7 +88,7 @@
 
   - **Leave-one-out Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023058-ad9938f3-9bf3-4fc7-9261-ddffd289287d.png" alt="image3" style="zoom:75%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023058-ad9938f3-9bf3-4fc7-9261-ddffd289287d.png" alt="image3" style="zoom:60%;" />
 
     전체 N개의 샘플 데이터셋을 N-1개의 학습 데이터셋과 1개의 테스트 데이터셋으로 나눔
 
@@ -98,7 +98,7 @@
 
   - **Leave-p-out Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023063-edafe120-f310-46f1-8074-e9b1edc46874.png" alt="image4" style="zoom:80%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023063-edafe120-f310-46f1-8074-e9b1edc46874.png" alt="image4" style="zoom:60%;" />
 
     전체 N개의 샘플 데이터셋을 N-p개의 학습 데이터셋과 p개의 테스트 데이터셋으로 나눔
 
@@ -108,7 +108,7 @@
 
   - **Stratified K-fold Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023064-eafc86a5-5a70-4934-adfc-cd64a2464eef.png" alt="image5" style="zoom:85%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023064-eafc86a5-5a70-4934-adfc-cd64a2464eef.png" alt="image5" style="zoom:65%;" />
 
     데이터 label 분포까지 고려해서 각 fold의 라벨분포가 전체 데이터의 라벨분포에 근사해서 훈련 및 검증
 
@@ -118,7 +118,7 @@
 
   - **Shuffle-split Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023068-676620c5-3585-4cd4-90b6-19c03e61801e.png" alt="image6" style="zoom:80%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023068-676620c5-3585-4cd4-90b6-19c03e61801e.png" alt="image6" style="zoom:60%;" />
 
     train dateset과 test dataset을 랜덤하게 나누고 반복
 
@@ -126,7 +126,7 @@
 
   - **Nested Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023072-a26f5ad1-49d0-427e-b677-2fc04a0776be.png" alt="image7" style="zoom:65%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023072-a26f5ad1-49d0-427e-b677-2fc04a0776be.png" alt="image7" style="zoom:60%;" />
 
     기존 교차검증 중첩
 
@@ -140,7 +140,7 @@
 
   - **Time-series Cross-validation**
 
-    <img src="https://user-images.githubusercontent.com/60209937/129023075-86e95e59-978f-4d3e-b92e-5112230b47c5.png" alt="image8" style="zoom:67%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/129023075-86e95e59-978f-4d3e-b92e-5112230b47c5.png" alt="image8" style="zoom:60%;" />
 
     시계열 데이터 경우, 시간정보 결과에 영향
 
@@ -153,7 +153,7 @@
   - **Bias**: aim값에서 평균적으로 얼마나 벗어났는지
   - **Variance**: 비슷한 입력에 대한 일관적인 출력 (분산)
 
-  <img width="451" alt="image4" src="https://user-images.githubusercontent.com/60209937/128796101-ad12c1a8-58e2-45b6-ad56-adf2fde8058b.png" style="zoom:65%;" >
+  <img width="451" alt="image4" src="https://user-images.githubusercontent.com/60209937/128796101-ad12c1a8-58e2-45b6-ad56-adf2fde8058b.png" style="zoom:60%;" >
 
 - **Bias and Variance Tradeoff**
 
@@ -205,7 +205,7 @@
 
       => 오분류된 객체들이 더 잘 분류하는 것
 
-  <img width="736" alt="image6" src="https://user-images.githubusercontent.com/60209937/128796104-15ce544a-85f2-4d8c-a15a-2bee6e9bc904.png" style="zoom:60%;" >
+  <img width="736" alt="image6" src="https://user-images.githubusercontent.com/60209937/128796104-15ce544a-85f2-4d8c-a15a-2bee6e9bc904.png" style="zoom:50%;" >
 
 - **Gadient Descent Methods**
 
@@ -239,7 +239,7 @@
 
     보통 모멘텀 $μ=0.9$​​ 사용
 
-    <img src="https://user-images.githubusercontent.com/60209937/128809286-afee016f-b151-4443-885e-b7705f72d757.png" alt="1" style="zoom:65%;" />
+    <img src="https://user-images.githubusercontent.com/60209937/128809286-afee016f-b151-4443-885e-b7705f72d757.png" alt="1" style="zoom:60%;" />
 
     - SGD가 oscilation(진동)을 겪을 때, 중앙의 최적점을 이동하는 힘을 줌
 
@@ -267,7 +267,7 @@
 
     => 유동적 이동 가능 => 기존의 momentum 방식에 비해 효과적
 
-    <img width="880" alt="image11" src="https://user-images.githubusercontent.com/60209937/128796114-ce9d8deb-d9ff-4b30-b787-b26c3abd6749.png" style="zoom:80%;" >
+    <img width="880" alt="image11" src="https://user-images.githubusercontent.com/60209937/128796114-ce9d8deb-d9ff-4b30-b787-b26c3abd6749.png" style="zoom:70%;" >
 
   - **Adagrad(Adaptive Gradient)**
 
@@ -326,7 +326,7 @@
 
     - 보통 $β_1=0.9$​​로는 $0.9, β_2=0.999, ϵ=10^{−8}$​​​ 정도의 값 사용
 
-  <img src="https://user-images.githubusercontent.com/60209937/128810540-5715db77-8f02-4440-ba99-da3649098873.png" alt="9" style="zoom:80%;" />
+  <img src="https://user-images.githubusercontent.com/60209937/128810540-5715db77-8f02-4440-ba99-da3649098873.png" alt="9" style="zoom:70%;" />
 
 - **Reqularization**
 
@@ -376,7 +376,7 @@
 
     **class 에 영향을 끼치지 않는 선에서 Data Augmentation은 필수적**
 
-    <img width="970" alt="image18" src="https://user-images.githubusercontent.com/60209937/128796125-9c29b4fc-6e06-40b0-92da-ea6c94366f4f.png" style="zoom:80%;" >
+    <img width="970" alt="image18" src="https://user-images.githubusercontent.com/60209937/128796125-9c29b4fc-6e06-40b0-92da-ea6c94366f4f.png" style="zoom:70%;" >
 
     <img width="479" alt="image19" src="https://user-images.githubusercontent.com/60209937/128796126-e51d5a2b-5b12-4c39-88ff-f8c6b1094fee.png" style="zoom:50%;" >
 
@@ -384,11 +384,11 @@
 
     Add random noise inputs or weights
 
-    <img width="653" alt="image20" src="https://user-images.githubusercontent.com/60209937/128796129-c7fdbe68-379e-490a-8177-1a51c08c47bd.png" style="zoom:60%;" >
+    <img width="653" alt="image20" src="https://user-images.githubusercontent.com/60209937/128796129-c7fdbe68-379e-490a-8177-1a51c08c47bd.png" style="zoom:50%;" >
 
   - **Label smoothing**
 
-    <img width="645" alt="image22" src="https://user-images.githubusercontent.com/60209937/128796133-07aee170-67cf-4d08-b7e9-00b8ab25392e.png" style="zoom:70%;" >
+    <img width="645" alt="image22" src="https://user-images.githubusercontent.com/60209937/128796133-07aee170-67cf-4d08-b7e9-00b8ab25392e.png" style="zoom:60%;" >
 
     Hard target(label) 을 sotf target(label) 로 바꾸는 것
 
