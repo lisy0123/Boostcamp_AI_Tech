@@ -82,11 +82,10 @@
 <details>
   <summary><b> Day04 </b></summary>
   <div markdown="1">
-  - vim 관련 사이트 추천
 
-    https://subicura.com/2017/11/22/mac-os-development-environment-setup.html#%EA%B7%B8%EB%9E%98%EC%84%9C
-
-    https://programmingsummaries.tistory.com/390
+- vim 관련 사이트 추천
+  - https://subicura.com/2017/11/22/mac-os-development-environment-setup.html#%EA%B7%B8%EB%9E%98%EC%84%9C
+  - https://programmingsummaries.tistory.com/390
 
 - layer normalization 논문
 
