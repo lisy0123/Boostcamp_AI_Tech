@@ -1,6 +1,6 @@
 # Intro
 
-<img width="1165" alt="image1" src="https://user-images.githubusercontent.com/60209937/129653988-5a05f654-ba7f-4103-b850-52245b2cb004.png" style="zoom:75%;" >
+<img width="1165" alt="image1" src="https://user-images.githubusercontent.com/60209937/129653988-5a05f654-ba7f-4103-b850-52245b2cb004.png" style="zoom:70%;" >
 
 - **Computational Graph**
 
@@ -16,7 +16,7 @@
 
     실행을 하면서 그래프를 생성하는 방식
 
-<img width="1218" alt="image3" src="https://user-images.githubusercontent.com/60209937/129654004-cceb76ed-7709-4e5e-908f-9425ab303c23.png" style="zoom:75%;" >
+<img width="1218" alt="image3" src="https://user-images.githubusercontent.com/60209937/129654004-cceb76ed-7709-4e5e-908f-9425ab303c23.png" style="zoom:70%;" >
 
 - **Degine by Run 장점**
 
