@@ -16,9 +16,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/AI_Math)
+### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_AI_Math)
 
-### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/Python_Basic_for_AI)
+### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_Python_Basic_for_AI)
 
 ### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week01.md)
 
@@ -36,7 +36,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-### [:milky_way: DL Basic](https://github.com/lisy0123/Boostcamp_AI/blob/main/DL_Basic)
+### [:milky_way: DL Basic](https://github.com/lisy0123/Boostcamp_AI/blob/main/02_DL_Basic)
 
 ### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week02.md)
 
@@ -52,6 +52,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
+### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
+
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week03.md)
 
 
 
