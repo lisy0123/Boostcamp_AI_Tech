@@ -54,7 +54,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
 
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week03.md)
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week03.md)
 
 
 

@@ -16,5 +16,5 @@
 
 - 실행, 데이터, 모델, 설정, 로깅, 지표, 유틸리티 등, 다양한 모듈들 분리 프로젝트 템플릿화
 
-<img width="982" alt="2" src="https://user-images.githubusercontent.com/60209937/129658258-4104bbde-258a-4bda-bb79-771fde6fdd5e.png" style="zoom:80%;" >
+<img width="982" alt="2" src="https://user-images.githubusercontent.com/60209937/129658258-4104bbde-258a-4bda-bb79-771fde6fdd5e.png" style="zoom:70%;" >
 
