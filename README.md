@@ -5,6 +5,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 > [Group Git (Private)](https://github.com/hbseo/ONE-AI)
 >
 > [PDF, codes (Private)](https://github.com/lisy0123/Boostcamp_AI_Tech_ETC)
+>
+> **[Self DL Study]()**
 
 ## :one: Week01
 
@@ -52,9 +54,47 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
+### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+
 ### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
 
 ### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week03.md)
+
+---
+
+## :four: Week04
+
+<details>
+  <summary><b> Schedule </b></summary>
+  <div markdown="1">
+    <img src="https://github.com/lisy0123/Boostcamp_AI/blob/main/Schedule/week04.png"/>
+  </div>
+</details>
+
+
+
+### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+
+
+
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
+
+---
+
+## :five: Week05
+
+<details>
+  <summary><b> Schedule </b></summary>
+  <div markdown="1">
+    <img src="https://github.com/lisy0123/Boostcamp_AI/blob/main/Schedule/week05.png"/>
+  </div>
+</details>
+
+
+
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week05.md)
+
+---
 
 
 
