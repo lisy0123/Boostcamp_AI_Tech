@@ -6,7 +6,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 >
 > [PDF, codes (Private)](https://github.com/lisy0123/Boostcamp_AI_Tech_ETC)
 >
-> **[Self DL Study]()**
+> **[:point_right: Self DL Study]()**
 
 ## :one: Week01
 
