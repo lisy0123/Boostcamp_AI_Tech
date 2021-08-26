@@ -1,4 +1,4 @@
-이미지를 crop해서 사용하시는 분들도 계실 텐데요, 저 같은 경우에는 facenet을 이용해서 이미지를 crop했습니다.
+이미지를 crop해서 사용하시는 분들도 많으실 텐데요, facenet을 이용해 이미지를 crop하는 방법을 이용해봤습니다.
 
 MTCNN으로 face detection해서 crop하고, 인식 못하는 부분은 (300, 300)으로 직접 crop했습니다.
 
@@ -79,7 +79,7 @@ eval의 이미지들도 동일하게 path만 바꿔서 적용해줬습니다.
 
 ## Result
 
-EfficientNet, data augmentation, k-fold 베이스에 crop 안 한 이미지로 돌렸을 때, accuracy 75.905, f1 0.695 나왔고,
+저 같은 경우, EfficientNet, data augmentation, k-fold 베이스에 crop 안 한 이미지로 돌렸을 때, accuracy 75.905, f1 0.695 나왔고,
 
 crop한 이미지로 돌렸을 때, accuracy 78.206, f1 0.726 나왔습니다.
 
@@ -99,11 +99,3 @@ crop한 이미지로 돌렸을 때, accuracy 78.206, f1 0.726 나왔습니다.
 - https://blog.naver.com/zxc1552916/221957018715
 - https://yeomko.tistory.com/16
 
-**Data augmentation**
-
-- https://brunokrinski.github.io/awesome-data-augmentation/
-
-**Albumentations**
-
-- https://hoya012.github.io/blog/albumentation_tutorial/
-- https://albumentations-demo.herokuapp.com/

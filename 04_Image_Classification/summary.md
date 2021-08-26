@@ -14,9 +14,7 @@
 
 - Evaluation: F1 Score (macro)
 
-
-
-## EDA (Exploratory Data Analysis, 탐색적 데이터 분석)
+## :one: EDA (Exploratory Data Analysis, 탐색적 데이터 분석)
 
 - Age
 
@@ -42,9 +40,7 @@
 
 - Gender, base on mask
 
-
-
-## Labeling
+## :two: Labeling
 
 - Mask
 
@@ -72,9 +68,7 @@
 
     Gender: 1 => 0 (male => female)
 
-
-
-## Data augmentation
+## :three: Data augmentation
 
 >  **torchvision 대신 albumentations 사용**
 >
@@ -93,19 +87,15 @@
 
    Resize(224,224), Normalize()
 
+- Seed: 777 고정
 
+- K-fold 교차검증 사용
 
-Seed: 777 고정
-
-K-fold 교차검증 사용
-
-> TTA(??)
-
-
+> TTA (??)
 
 ---
 
-## Testing
+## :four: Testing
 
 #### Test Required
 
@@ -116,9 +106,9 @@ K-fold 교차검증 사용
 - batch_size 64, 16 테스트
 - epoch 5, 8 테스트
 
+---
 
-
-### 1차
+### 01차
 
 - 5_Fold 중 1개의 Fold를 선택하여 Train Set, Valid set 분할
 
@@ -133,9 +123,7 @@ K-fold 교차검증 사용
 
 - crop X
 
-#### Result
-
-accuracy / f1
+#### Result (accuracy / f1)
 
 75.905 / 0.695
 
@@ -145,64 +133,94 @@ age, loss 튐, 수정 필요
 
 crop해서 성능 높이기
 
-- center crop
-- facenet 이용해서 crop
+1. center crop
+2. facenet 이용해서 crop
 
 ---
 
-### 2차
+### 02차
 
-crop 이미지 사용
+- crop 이미지 사용
 
-- mtcnn 이용
-- mtcc 적용 안되면 직접 crop [100:400, 50:350, :]
+  mtcnn 적용, 적용 안되면 직접 crop [100:400, 50:350, :]
 
-#### Result
+#### Result (accuracy / f1)
 
 78.206 / 0.726
 
----
-
-### 3차, 4차
-
-age, batch_size=16
-
-| Model |  batch_size=16   | batch_size=32  |  batch_size=64   |
-| :---: | :--------------: | :------------: | :--------------: |
-|  Age  | 73.2857 / 0.6087 | 78.206 / 0.726 | 79.6825 / 0.7461 |
-
-> accuracy / f1
+> crop 이미지 적용!
 
 ---
 
-### 5차
+### 03차, 04차
 
-ALL batch_size=64
+- age, batch_size=16, 64
 
-ALL train: Dataloader, shuffle=True
+#### Result (accuracy / f1)
 
-##### Result
+|        Age        |  batch_size=16   |   batch_size=32    |  batch_size=64   |
+| :---------------: | :--------------: | :----------------: | :--------------: |
+| **accuracy / f1** | 73.2857 / 0.6087 | **78.206 / 0.726** | 79.6825 / 0.7461 |
+
+> age, batch_size=64 적용!
+
+---
+
+### 05차
+
+- ALL batch_size=64
+
+#### Result (accuracy / f1)
 
 77.6508 / 0.7040
 
+> 취소!
+
 ---
 
-### 6차
+### 06차, 07차, 08차, 09차
 
-복귀
+- mask, gender batch_size=32, 64 / lr=3e-4, 1e-4
 
-- train: Dataloader, shuffle= mask만 True / age, gender은 False
+**Gender \ Mask, 자체 f1 score 결과**
 
-|   Model    | batch_szie=32, lr=3e-4 | batch_size=32, lr=1e-4 | batch_size=64, lr=3e-4 | batch_size=64, lr=1e-4 |
-| :--------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: |
-|  **Mask**  |         0.000          |         0.001          |         0.001          |         0.003          |
-| **Gender** |         0.000          |                        |         0.008          |                        |
+|                            | batch_szie=32, lr=1e-4 | batch_size=32, lr=3e-4 | batch_size=64, lr=1e-4 | batch_size=64, lr=3e-4 |
+| :------------------------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: |
+| **batch_size=32, lr=1e-4** |   0.996638655462185    |   0.996638655462185    |   0.996778711484594    |   0.996778711484594    |
+| **batch_size=32, lr=3e-4** |   0.996778711484594    | **0.996778711484594**  |   0.9969187675070029   |   0.9969187675070029   |
+| **batch_size=64, lr=1e-4** |   0.996638655462185    |   0.996638655462185    |   0.996778711484594    |   0.996778711484594    |
+| **batch_size=64, lr=3e-4** |           -            |           -            |   0.996778711484594    |   0.996778711484594    |
 
-> loss
+#### Result (accuracy / f1)
+
+|  회차  |             mask / gender             | accuracy |   f1   |
+| :----: | :-----------------------------------: | :------: | :----: |
+| **06** |  mask **64**, 3e-4 / gender 32, 3e-4  | 79.2381  | 0.7355 |
+| **07** |   mask **64 1e-4** / gender 32 3e-4   | 79.2857  | 0.7366 |
+| **08** |   mask 32 **1e-4** / gender 32 3e-4   | 79.2381  | 0.7354 |
+| **09** | mask **64 1e-4** / gender **64 1e-4** | 78.9683  | 0.7311 |
+
+> 취소!
+>
+> 그대로 mask 32, 3e-4 / age 64, 1e-4 / gender 32, 3e-4 유지!
+
+---
+
+### 10차
+
+overfitting: 현재 epoch의 loss, f1 score와 그 전 epoch의 loss, f1 score 비교하여 결정
+
+- mask, epoch=3
+
+#### Result (accuracy / f1)
+
+79.2063 / 0.7350
+
+---
 
 
 
-##### Result
+mask, eopch=5
 
 
 
@@ -210,4 +228,7 @@ ALL train: Dataloader, shuffle=True
 
 
 
-epoch 수 줄여보기
+age eopoch 늘여보기
+
+나머지 epoch 수 줄여보기
+

@@ -1,62 +1,80 @@
-EfficientNet
+# Reference
 
-https://github.com/lukemelas/EfficientNet-PyTorch
+- EfficientNet
 
-https://hoya012.github.io/blog/EfficientNet-review/
+  https://github.com/lukemelas/EfficientNet-PyTorch
 
-https://keep-steady.tistory.com/35
+  https://hoya012.github.io/blog/EfficientNet-review/
 
+  https://keep-steady.tistory.com/35
 
+- KFold
 
-Augmentation
+  https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=gustn3964&logNo=221431914515
 
-https://brunokrinski.github.io/awesome-data-augmentation/
+- Augmentation
 
-- Albumentations
+  https://brunokrinski.github.io/awesome-data-augmentation/
 
-  https://hoya012.github.io/blog/albumentation_tutorial/
+  - Albumentations
 
-  https://albumentations-demo.herokuapp.com/
+    https://hoya012.github.io/blog/albumentation_tutorial/
 
+    https://albumentations-demo.herokuapp.com/
 
+- Loss Function
 
-Face Recognition
+  https://nuguziii.github.io/dev/dev-002/
 
-https://github.com/timesler/facenet-pytorch
+- Focal Loss
 
-https://seongkyun.github.io/study/2019/03/25/face_detection/
+  https://ropiens.tistory.com/83
 
-https://sefiks.com/2020/09/09/deep-face-detection-with-mtcnn-in-python/
+- Learning rate scheduler
 
-https://blog.naver.com/zxc1552916/221957018715
+  https://sanghyu.tistory.com/113
 
-https://yeomko.tistory.com/16
+- F1 score
 
+  https://datascienceschool.net/03%20machine%20learning/09.04%20%EB%B6%84%EB%A5%98%20%EC%84%B1%EB%8A%A5%ED%8F%89%EA%B0%80.html
 
+  https://brunch.co.kr/@chris-song/54
 
-transfer learning & fine tuning
+  https://eunsukimme.github.io/ml/2019/10/21/Accuracy-Recall-Precision-F1-score/
 
-https://inhovation97.tistory.com/31
+- Face Recognition
 
+  https://github.com/timesler/facenet-pytorch
 
+  https://seongkyun.github.io/study/2019/03/25/face_detection/
 
-learning rate & batch size best 조합
+  https://sefiks.com/2020/09/09/deep-face-detection-with-mtcnn-in-python/
 
-https://inhovation97.tistory.com/32
+  https://blog.naver.com/zxc1552916/221957018715
 
+  https://yeomko.tistory.com/16
 
+- transfer learning & fine tuning
 
-overfitting, underfitting
+  https://inhovation97.tistory.com/31
 
-https://hyjykelly.tistory.com/50
+  https://jungnamgyu.tistory.com/34
 
+- learning rate & batch size best 조합
 
+  https://inhovation97.tistory.com/32
 
-TTA
+- overfitting, underfitting
 
-https://stepup.ai/test_time_data_augmentation/
+  https://hyjykelly.tistory.com/50
 
-https://visionhong.tistory.com/26
+- Finetuning torchvision
 
+  https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html
 
+- TTA
+
+  https://stepup.ai/test_time_data_augmentation/
+
+  https://visionhong.tistory.com/26
 
