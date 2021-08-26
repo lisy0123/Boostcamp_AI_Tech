@@ -81,23 +81,25 @@
 > - albumentations이 torchvision보다 더 빠르고 다양한 data augmentation 제공
 > - 객체 탐지 모델에서 이미지 데이터에 그려져 있는 b-box도 같이 transform해주기도 함
 
-- Mask
+1. Mask
 
-  Perspective, Rotate, Noise, Blur, Color
+   Perspective, Rotate, Noise, Color, Blur
 
-- Age, Gender
+2. Age, Gender
 
-  Perspective, Rotate, Noise, Color, Grid
+   Perspective, Rotate, Noise, Color, Grid
 
-- Resize(224,224), Normalize()
+3. ALL
+
+   Resize(224,224), Normalize()
 
 
-
-TTA
 
 Seed: 777 고정
 
 K-fold 교차검증 사용
+
+> TTA(??)
 
 
 
@@ -105,63 +107,107 @@ K-fold 교차검증 사용
 
 ## Testing
 
-### 1차
-
-- 5_Fold 중 1개의 Fold를 선택하여 Train Set, Valid set 분할
-- Dataloader, num_workers=6
-- efficientNet, b4
-- Optimizer: Adam, lr=3e-4
-- 10 epoch, 32 batch_size
-- crop X
-
-
-
-#### Result
-
-- mask: 29.435 / 29.487 // 0.001
-
-- age: 27.810 / 23.865 // 0.029
-
-  - lr=1e-4
-
-    age: 28.778 / 27.650 // 0.045
-
-- gender: 29.274 / 29.358 // 0.001
-
-#### Modification required
-
-- age, loss 튐, 수정 필요
-- crop해서 성능 높이기
-  - center crop
-  - facenet 이용해서 crop
-
 #### Test Required
 
 - efficientNet, b3, 5 테스트
-- KFold n_splits 4, 6 테스트
+- KFold 4, 6 테스트
 - Dataloader, num_workers 5, 7 테스트
-- Optimizer
-
 - lr 테스트 2e-4, 1e-4 테스트
 - batch_size 64, 16 테스트
 - epoch 5, 8 테스트
+
+
+
+### 1차
+
+- 5_Fold 중 1개의 Fold를 선택하여 Train Set, Valid set 분할
+
+- Dataloader, num_workers=6
+
+- efficientNet, b4
+
+- Optimizer: Adam, lr=3e-4
+  - age lr=1e-4 (loss가 너무 커서 바꿈)
+
+- epoch=10, batch_size=32
+
+- crop X
+
+#### Result
+
+accuracy / f1
+
+75.905 / 0.695
+
+#### Modification required
+
+age, loss 튐, 수정 필요
+
+crop해서 성능 높이기
+
+- center crop
+- facenet 이용해서 crop
 
 ---
 
 ### 2차
 
-- mtcnn 이용, crop 이미지 사용
+crop 이미지 사용
 
-
+- mtcnn 이용
+- mtcc 적용 안되면 직접 crop [100:400, 50:350, :]
 
 #### Result
 
-- mask: 29.413 / 29.425 // 0.000
+78.206 / 0.726
 
-- age: 27.810 / 23.865 // 0.029
+---
 
-  - lr=1e-4
+### 3차, 4차
 
-    age: 28.778 / 27.650 // 0.045
+age, batch_size=16
 
-- gender: 29.274 / 29.358 // 0.001
+| Model |  batch_size=16   | batch_size=32  |  batch_size=64   |
+| :---: | :--------------: | :------------: | :--------------: |
+|  Age  | 73.2857 / 0.6087 | 78.206 / 0.726 | 79.6825 / 0.7461 |
+
+> accuracy / f1
+
+---
+
+### 5차
+
+ALL batch_size=64
+
+ALL train: Dataloader, shuffle=True
+
+##### Result
+
+77.6508 / 0.7040
+
+---
+
+### 6차
+
+복귀
+
+- train: Dataloader, shuffle= mask만 True / age, gender은 False
+
+|   Model    | batch_szie=32, lr=3e-4 | batch_size=32, lr=1e-4 | batch_size=64, lr=3e-4 | batch_size=64, lr=1e-4 |
+| :--------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: |
+|  **Mask**  |         0.000          |         0.001          |         0.001          |         0.003          |
+| **Gender** |         0.000          |                        |         0.008          |                        |
+
+> loss
+
+
+
+##### Result
+
+
+
+
+
+
+
+epoch 수 줄여보기

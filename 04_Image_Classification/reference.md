@@ -21,11 +21,14 @@ https://brunokrinski.github.io/awesome-data-augmentation/
 
 
 Face Recognition
+
+https://github.com/timesler/facenet-pytorch
+
+https://seongkyun.github.io/study/2019/03/25/face_detection/
+
 https://sefiks.com/2020/09/09/deep-face-detection-with-mtcnn-in-python/
 
 https://blog.naver.com/zxc1552916/221957018715
-
-https://github.com/timesler/facenet-pytorch
 
 https://yeomko.tistory.com/16
 
