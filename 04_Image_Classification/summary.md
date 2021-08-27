@@ -273,7 +273,7 @@ gender,epoch=10
 
 gender, epoch=13
 
-
+0.9949579831932776
 
 gender, epoch=15
 
