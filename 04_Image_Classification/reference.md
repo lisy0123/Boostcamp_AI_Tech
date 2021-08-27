@@ -26,9 +26,11 @@
 
   https://nuguziii.github.io/dev/dev-002/
 
-- Focal Loss
+  https://wordbe.tistory.com/entry/ML-Cross-entropyCategorical-Binary%EC%9D%98-%EC%9D%B4%ED%95%B4
 
-  https://ropiens.tistory.com/83
+  - Focal Loss
+
+    https://ropiens.tistory.com/83
 
 - Learning rate scheduler
 

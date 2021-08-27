@@ -14,6 +14,8 @@
 
 - Evaluation: F1 Score (macro)
 
+> [CODE (Private)]()
+
 ## :one: EDA (Exploratory Data Analysis, 탐색적 데이터 분석)
 
 - Age
@@ -111,16 +113,13 @@
 ### 01차
 
 - 5_Fold 중 1개의 Fold를 선택하여 Train Set, Valid set 분할
-
 - Dataloader, num_workers=6
-
 - efficientNet, b4
-
 - Optimizer: Adam, lr=3e-4
   - age lr=1e-4 (loss가 너무 커서 바꿈)
-
 - epoch=10, batch_size=32
-
+- loss: CrossEntropyLoss
+- lr_scheduler: ReduceLROnPlateau
 - crop X
 
 #### Result (accuracy / f1)
@@ -206,21 +205,79 @@ crop해서 성능 높이기
 
 ---
 
-### 10차
+### 10차, 11차
 
-overfitting: 현재 epoch의 loss, f1 score와 그 전 epoch의 loss, f1 score 비교하여 결정
+mask, epoch=3 => **Result(acc / f1): 79.2063 / 0.7350**
 
-- mask, epoch=3
+0.996638655462185
 
-#### Result (accuracy / f1)
+mask, epoch=5
 
-79.2063 / 0.7350
+0.9962184873949582
 
----
+mask, epoch=8
+
+0.996778711484594
+
+mask, epoch=10
+
+**0.996778711484594**
+
+mask, epoch=12
+
+0.996638655462185
+
+mask, epoch=13
+
+0.996778711484594
+
+mask, eopch=15
+
+0.996638655462185
 
 
 
-mask, eopch=5
+age, epoch=5
+
+0.9866946778711492
+
+age, epoch=10
+
+0.996778711484594
+
+age, epoch=15
+
+0.9973389355742298 => **Result(acc /f1): 80.5079 / 0.7527**
+
+age, epoch=18
+
+0.9973389355742298
+
+age, epoch=19
+
+0.9984593837535015 ######
+
+age, epoch=20
+
+0.9886554621848745
+
+
+
+gender,epoch=5
+
+0.996498599439776
+
+gender,epoch=10
+
+**0.996778711484594**
+
+gender, epoch=13
+
+
+
+gender, epoch=15
+
+0.996638655462185
 
 
 
@@ -231,4 +288,16 @@ mask, eopch=5
 age eopoch 늘여보기
 
 나머지 epoch 수 줄여보기
+
+
+
+#### Result (accuracy / f1)
+
+
+
+
+
+Dataloder shuffle 이해하기
+
+True, age, gender에 영향 확인
 

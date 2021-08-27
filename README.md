@@ -72,12 +72,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-
 ### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
+### **[:framed_picture: Image_Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)**
 
-
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
+### :clipboard: [Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
 
 ---
 
@@ -91,8 +90,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week05.md)
+### :clipboard: [Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week05.md)
 
 ---
 
@@ -103,3 +101,4 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 
 [↩️ Go Back](https://github.com/lisy0123/Study)
+
