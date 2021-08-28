@@ -211,83 +211,25 @@ mask, epoch=3 => **Result(acc / f1): 79.2063 / 0.7350**
 
 0.996638655462185
 
-mask, epoch=5
-
-0.9962184873949582
-
-mask, epoch=8
-
-0.996778711484594
-
-mask, epoch=10
-
-**0.996778711484594**
-
-mask, epoch=12
-
-0.996638655462185
-
-mask, epoch=13
-
-0.996778711484594
-
-mask, eopch=15
-
-0.996638655462185
-
-
-
-age, epoch=5
-
-0.9866946778711492
-
-age, epoch=10
-
-0.996778711484594
-
 age, epoch=15
 
 0.9973389355742298 => **Result(acc /f1): 80.5079 / 0.7527**
 
-age, epoch=18
+mask, 10 / age, 19 / gender, 10
 
-0.9973389355742298
+0.9984593837535015 => 77.3492 / 0.7036
 
-age, epoch=19
+mask, 10 / age, 19 / gender, 12
 
-0.9984593837535015 ######
+0.9984593837535015 => 77.2698 / 0.7015
 
-age, epoch=20
+Dataloader: shuffle=False, sampler=RandomSampler(data)
 
-0.9886554621848745
+mask 6 / focal loss, age 13 / gender 6
 
-
-
-gender,epoch=5
-
-0.996498599439776
-
-gender,epoch=10
-
-**0.996778711484594**
-
-gender, epoch=13
-
-0.9949579831932776
-
-gender, epoch=15
-
-0.996638655462185
+0.9983193277310926 => 77.3333 / 0.7057
 
 
-
-
-
-
-
-age eopoch 늘여보기
-
-나머지 epoch 수 줄여보기
 
 
 
@@ -297,7 +239,16 @@ age eopoch 늘여보기
 
 
 
-Dataloder shuffle 이해하기
 
-True, age, gender에 영향 확인
 
+train_sampler = RandomSampler(train_data)
+
+valid_sampler = RandomSampler(valid_data)
+
+​    train_dl = DataLoader(train_data, batch_size=args.batch_size,
+
+​                          shuffle=False, sampler=train_sampler, num_workers=4)
+
+​    valid_dl = DataLoader(valid_data, batch_size=args.batch_size,
+
+​                          shuffle=False, sampler=train_sampler, num_workers=4)

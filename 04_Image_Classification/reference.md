@@ -31,10 +31,22 @@
   - Focal Loss
 
     https://ropiens.tistory.com/83
+    
+    https://amaarora.github.io/2020/06/29/FocalLoss.html
+    
+    https://headbreakz.tistory.com/entry/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-Batch-Mini-Batch
+
+- nn.Module
+
+  https://anweh.tistory.com/21
 
 - Learning rate scheduler
 
   https://sanghyu.tistory.com/113
+
+  - ReduceLROnPlateau
+
+    https://deep-deep-deep.tistory.com/56
 
 - F1 score
 
@@ -69,6 +81,8 @@
 - overfitting, underfitting
 
   https://hyjykelly.tistory.com/50
+
+  https://velog.io/@yookyungkho/%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%98-%EA%B3%A0%EC%A7%88%EB%B3%91-Overfitting%EA%B3%BC%EC%A0%81%ED%95%A9-%ED%95%B4%EA%B2%B0-%ED%8C%81
 
 - Finetuning torchvision
 
