@@ -94,3 +94,6 @@
 
   https://visionhong.tistory.com/26
 
+- Randomness
+
+  https://hoya012.github.io/blog/reproducible_pytorch/
