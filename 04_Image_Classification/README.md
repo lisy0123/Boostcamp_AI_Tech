@@ -1,9 +1,5 @@
 # Image Classification
 
-> [Reference](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/reference.md)
->
-> [Pstage summary](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/summary.md)
-
 ## Intro
 
 - Simple Machine Learning Pipeline
@@ -22,23 +18,15 @@
 
 - **Pre-processing**
 
-  Bounding box, crop
-
-  Resize
+  Bounding box, crop, Resize
 
 - **Generalization (일반화)**
 
-  - **Bias & Variance**
-
-    Underfitting, Overfitting
+  - **Bias & Variance** : Underfitting, Overfitting
 
   - **Train & Validation**
 
-  - **Data Augmentation**
-
-    torchvision.transforms
-
-    Albumentations
+  - **Data Augmentation** : torchvision.transforms, Albumentations
 
 ---
 
@@ -76,9 +64,7 @@
 
 ## Model
 
-- **Pytorch**
-
-  low-level, Pythonic, Flexibility
+- **Pytorch** : low-level, Pythonic, Flexibility
 
 - Pytorch 모델의 모든 레이어, **nn.Module** 클래스 따름
 
@@ -130,9 +116,7 @@ resnet18 = models.resnet18(pretrained=True)
 
   - Loss 함수 = Cost 함수 = Error 함수
 
-  - loss.backward()
-
-    실행 시, 모델의 파라미터의 grad 값 업데이트
+  - loss.backward() : 실행 시, 모델의 파라미터의 grad 값 업데이트
 
   - **Focal Loss**
 
@@ -188,9 +172,7 @@ resnet18 = models.resnet18(pretrained=True)
 
   - F1-Score
 
-    Class 별 밸런스 좋지 않음
-
-    => 각 클래스 별, 성능을 잘 낼 수 있는지 확인 필요
+    Class 별 밸런스 좋지 않음 => 각 클래스 별, 성능을 잘 낼 수 있는지 확인 필요
 
 - **Trainig Process**
 
@@ -202,9 +184,7 @@ resnet18 = models.resnet18(pretrained=True)
 
   4. loss 마지막으로 chain 생성
 
-  5. loss의 grad_fn chain
-
-     => loss.backward()
+  5. loss의 grad_fn chain => loss.backward()
 
   6. optimizer.step()
 
@@ -245,9 +225,7 @@ resnet18 = models.resnet18(pretrained=True)
 
 - **Stratified K-Fold Cross Validation**
 
-  가능한 경우 모두 고려
-
-  Split시에 Class 분포까지 고려
+  가능한 경우 모두 고려, Split시에 Class 분포까지 고려
 
 - **TTA (Test Time Augmentation)**
 
@@ -255,9 +233,7 @@ resnet18 = models.resnet18(pretrained=True)
 
 - **성능과 효율의 Trade-off**
 
-  앙상블 효과는 확실히 존재
-
-  But, 그 만큼 학습, 추론 시간이 배로 소모
+  앙상블 효과는 확실히 존재 / But, 그 만큼 학습, 추론 시간이 배로 소모
 
 - **Hyperparameter Optimization, Optuna**
 
@@ -282,17 +258,14 @@ resnet18 = models.resnet18(pretrained=True)
 
   - **Jupyter Notebook**
 
-    코드를 빠르게 Cell 단위로 실행 가능
-
-    보통 EDA 시, 매우 편리
+    코드를 빠르게 Cell 단위로 실행 가능, 보통 EDA 시, 매우 편리
 
     학습 진행 도중 노트북 창이 꺼지면 못 돌아감
 
   - **Python IDLE**
 
-    구현은 한번만, 사용은 언제든, 간편한 코드 재사용
+    구현은 한번만, 사용은 언제든, 간편한 코드 재사용, 디버깅, 자유로운 실험 핸들링
 
-    디버깅, 자유로운 실험 핸들링
 
 
 

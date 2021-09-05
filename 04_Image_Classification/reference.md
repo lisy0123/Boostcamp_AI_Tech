@@ -42,11 +42,11 @@
 
 - Learning rate scheduler
 
+  https://pytorch.org/docs/stable/optim.html?highlight=lr_scheduler
+
   https://sanghyu.tistory.com/113
 
-  - ReduceLROnPlateau
-
-    https://deep-deep-deep.tistory.com/56
+  https://gaussian37.github.io/dl-pytorch-lr_scheduler/#steplr-1
 
 - F1 score
 
