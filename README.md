@@ -26,11 +26,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-#### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_AI_Math)
+### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_AI_Math)
 
-#### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_Python_Basic_for_AI)
+### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_Python_Basic_for_AI)
 
-#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week01.md)
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week01.md)
 
 ---
 
@@ -44,11 +44,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-#### [:milky_way: DL Basic](https://github.com/lisy0123/Boostcamp_AI/blob/main/02_DL_Basic)
+### [:milky_way: DL Basic](https://github.com/lisy0123/Boostcamp_AI/blob/main/02_DL_Basic)
 
-#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week02.md)
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week02.md)
 
 ---
 
@@ -62,11 +62,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-#### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
+### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
 
-#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week03.md)
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week03.md)
 
 ---
 
@@ -80,6 +80,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
     <img src="https://github.com/lisy0123/Boostcamp_AI/blob/main/Schedule/week04.png"/>
   </div>
 </details>
+
+
 ### Week05
 
 <details>
@@ -91,13 +93,13 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 
 
-#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-#### **[:framed_picture: Image_Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)**
+### **[:framed_picture: Image_Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)**
 
-#### :clipboard: [Week04 Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
+### :clipboard: [Week04 Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
 
-#### :mask: Mask Image Classification Competition
+### :mask: Mask Image Classification Competition
 
 > #### [(Updating...)]()
 >
@@ -120,9 +122,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 
 
-#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week06.md)
+### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week06.md)
 
 ---
 
