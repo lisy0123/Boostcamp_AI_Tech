@@ -1,14 +1,22 @@
 # Boostcamp_AI_Tech
 
-Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR) 
+Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
 > [Group Git (Private)](https://github.com/hbseo/ONE-AI)
 >
 > [PDF, codes (Private)](https://github.com/lisy0123/Boostcamp_AI_Tech_ETC)
 >
-> **[:point_right: Self DL Study]()**
+> **[:point_right:  Self DL Study]()**
 
-## :one: Week01
+## :zero: Curriculum
+
+<img src="https://user-images.githubusercontent.com/75282888/127832169-4b4977ba-4998-48da-b4ad-4cc422dfbe4b.png" alt="d" style="zoom:50%;" />
+
+---
+
+## :one: Lv.01 U-Stage
+
+### Week01
 
 <details>
   <summary><b> Schedule </b></summary>
@@ -18,15 +26,15 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_AI_Math)
+#### :triangular_ruler: [AI Math](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_AI_Math)
 
-### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_Python_Basic_for_AI)
+#### :computer: [Python Basic for AI](https://github.com/lisy0123/Boostcamp_AI/blob/main/01_Python_Basic_for_AI)
 
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week01.md)
+#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week01.md)
 
 ---
 
-## :two: Week02
+### Week02
 
 <details>
   <summary><b> Schedule </b></summary>
@@ -36,15 +44,15 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-### [:milky_way: DL Basic](https://github.com/lisy0123/Boostcamp_AI/blob/main/02_DL_Basic)
+#### [:milky_way: DL Basic](https://github.com/lisy0123/Boostcamp_AI/blob/main/02_DL_Basic)
 
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week02.md)
+#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week02.md)
 
 ---
 
-## :three: Week03
+### Week03
 
 <details>
   <summary><b> Schedule </b></summary>
@@ -54,15 +62,17 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
+#### [:package: PyTorch](https://github.com/lisy0123/Boostcamp_AI/blob/main/03_PyTorch)
 
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week03.md)
+#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week03.md)
 
 ---
 
-## :four: Week04
+## :two: Lv.01 P-Stage
+
+### Week04
 
 <details>
   <summary><b> Schedule </b></summary>
@@ -70,17 +80,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
     <img src="https://github.com/lisy0123/Boostcamp_AI/blob/main/Schedule/week04.png"/>
   </div>
 </details>
-
-
-### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
-
-### **[:framed_picture: Image_Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)**
-
-### :clipboard: [Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
-
----
-
-## :five: Week05
+### Week05
 
 <details>
   <summary><b> Schedule </b></summary>
@@ -90,17 +90,26 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 </details>
 
 
-### P-Stage Mask Image Classification
 
-> #### :mask: [Final Results (Updating...)]()
+#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+
+#### **[:framed_picture: Image_Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)**
+
+#### :clipboard: [Week04 Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week04.md)
+
+#### :mask: Mask Image Classification Competition
+
+> #### [(Updating...)]()
 >
-> #### :busts_in_silhouette: [Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/team_report.pdf)
+> #### [Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/team_report.pdf)
 >
-> #### :muscle: [Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/personal_report.md)
+> #### [Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/personal_report.md)
 
 ---
 
-## :six: Week06
+## :three: Lv.02 CV U-Stage
+
+### Week06
 
 <details>
   <summary><b> Schedule </b></summary>
@@ -111,13 +120,13 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 
 
-### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
+#### [:bar_chart: Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)
 
-### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week06.md)
+#### :clipboard: [Assignment & Peer Session & Weekly Review](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/APW/Week06.md)
 
 ---
 
-## :seven: Week07
+### :seven: Week07
 
 <details>
   <summary><b> Schedule </b></summary>
