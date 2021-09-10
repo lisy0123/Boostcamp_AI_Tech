@@ -8,6 +8,10 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 >
 > **[:point_right:  Self DL Study]()**
 
+### Recommended project
+
+- **[Mask Image Classification](https://github.com/boostcampaitech2/image-classification-level1-01)**
+
 ## :zero: Curriculum
 
 <img src="https://user-images.githubusercontent.com/75282888/127832169-4b4977ba-4998-48da-b4ad-4cc422dfbe4b.png" alt="d" style="zoom:50%;" />
@@ -26,8 +30,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 |   Weeks    |                           Study01                            |                       Study02 / Report                       |                    Weekly Review / Report                    |                           Schedule                           |
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Week04** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Image_Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)** | **[:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week04.md)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week04.png) |
-| **Week05** |                     **[Updating...]()**                      | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/team_report.pdf)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/personal_report.md)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week05.png) |
+| **Week04** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Image Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)** | **[:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week04.md)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week04.png) |
+| **Week05** | **[:star: Mask Image Classification](https://github.com/boostcampaitech2/image-classification-level1-01)** | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/team_report.pdf)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/personal_report.md)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week05.png) |
 
 
 
@@ -37,10 +41,10 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ## :three: Lv.02 CV U-Stage
 
-|   Weeks    |                           Study01                            | Study02 |                        Weekly Review                         |                           Schedule                           |
-| :--------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Week06** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** |         | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week06.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week06.png) |
-| **Week07** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** |         | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week07.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week07.png) |
+|   Weeks    |                           Study01                            |                           Study02                            |                        Weekly Review                         |                           Schedule                           |
+| :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **Week06** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Computer Vision](https://github.com/lisy0123/Boostcamp_AI/blob/main/05_Computer_Vision)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week06.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week06.png) |
+| **Week07** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Computer Vision](https://github.com/lisy0123/Boostcamp_AI/blob/main/05_Computer_Vision)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week07.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week07.png) |
 
 
 
