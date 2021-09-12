@@ -1,4 +1,4 @@
-# Boostcamp_AI_Tech
+# Boostcamp AI Tech
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
