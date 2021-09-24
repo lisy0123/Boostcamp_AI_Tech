@@ -2,10 +2,6 @@
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
-> [Group Git (Private)](https://github.com/hbseo/ONE-AI)
->
-> [PDF, codes (Private)](https://github.com/lisy0123/Boostcamp_AI_Tech_ETC)
->
 > **[:point_right:  Self DL Study]()**
 
 ### Recommended project
@@ -45,7 +41,11 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week06** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Computer Vision](https://github.com/lisy0123/Boostcamp_AI/blob/main/05_Computer_Vision)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week06.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week06.png) |
 | **Week07** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Computer Vision](https://github.com/lisy0123/Boostcamp_AI/blob/main/05_Computer_Vision)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week07.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week07.png) |
+<<<<<<< HEAD
+| **Week08** | **[Special Lecture](https://github.com/lisy0123/Boostcamp_AI/blob/main/06_Special_Lecture)** |                            **-**                             | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week08.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week08.png) |
+=======
 | **Week08** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** |                            **-**                             | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week08.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week08.png) |
+>>>>>>> fecd05edfbafbf829ad3e4caddf58951d632ce18
 
 
 

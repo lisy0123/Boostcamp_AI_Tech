@@ -1,4 +1,4 @@
-# Python_Basic_for_AI
+# Python Basic for AI
 
 | Num  |                            Title                             |
 | :--: | :----------------------------------------------------------: |

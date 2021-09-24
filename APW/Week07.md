@@ -7,7 +7,7 @@
 1. CNN Visualization: 무난했다.
 2. Conditional GAN: MINIST로 다시 공부 중, 데이터셋이 학습에 적합하지 않았고 초반에 코드 오류 많았다.
 3. Human Pose Estimation Using Hourglass Network: 따로 공부 더 해볼 생각.
-4. De-focusing Using Depth Map: 아직 못해봄, 추후 수정
+4. De-focusing Using Depth Map: 3번과 마찬가지로 따로 공부 더 해볼 생각.
 
 ## :handshake: ​Peer Session
 
