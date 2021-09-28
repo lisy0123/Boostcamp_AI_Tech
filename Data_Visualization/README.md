@@ -9,8 +9,6 @@
 |  5   | **[Polar Coordinate / Pie Charts / Moreover](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Data_Visualization/md/05_Polar_Coordinate_ETC.md)** |
 |  6   | **[Interactive Visualization](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Data_Visualization/md/06_Interactive_Visualization.md)** |
 |  7   | Custom Matplotlib Theme / Image & Text Visualization Techniques |
-|  8   |                                                              |
-|  9   |                                                              |
 
 :label: Updating...
 
