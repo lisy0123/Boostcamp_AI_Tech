@@ -56,14 +56,14 @@ Mosaic
   - RandomBrightnessContrast, CLAHE, RandomGamma
   - HueSatuationValue, RGBShift
 
-| Architecture/backbone/Neck                                   | mAP50      | optimizer                          | loss (class, bbox) | batch_size, epochs | ETC                                      |
-| ------------------------------------------------------------ | ---------- | ---------------------------------- | ------------------ | ------------------ | ---------------------------------------- |
-| **Cascade R-CNN** / ResNet50 / FPN                           | Val: , LB: | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              | Data argument 추가                       |
-| **Cascade R-CNN** / ResNet101 / FPN +                        | Val: , LB: | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
-| **Cascade R-CNN** / ResNet50 / **RFP+SAC**  **(DetectoRS)**  | Val: , LB: | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
-| **Cascade R-CNN** / ResNet101 / **RFP+SAC**  **(DetectoRS)** + | Val: , LB: | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
-|                                                              |            |                                    |                    |                    |                                          |
-|                                                              |            |                                    |                    |                    | Stratified Group k-Fold Cross-Validation |
+| Architecture/backbone/Neck                                   | mAP50                 | optimizer                          | loss (class, bbox) | batch_size, epochs | ETC                                      |
+| ------------------------------------------------------------ | --------------------- | ---------------------------------- | ------------------ | ------------------ | ---------------------------------------- |
+| **Cascade R-CNN** / ResNet50 / FPN                           | Val: 0.715, LB: 0.521 | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              | Data argument 추가                       |
+| **Cascade R-CNN** / ResNet50 / **RFP+SAC**  **(DetectoRS)**  | Val: , LB:            | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
+| **Cascade R-CNN** / ResNet101 / **RFP+SAC**  **(DetectoRS)** + | Val: , LB:            | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
+|                                                              |                       |                                    |                    |                    |                                          |
+|                                                              |                       |                                    |                    |                    |                                          |
+|                                                              |                       |                                    |                    |                    | Stratified Group k-Fold Cross-Validation |
 
 
 
