@@ -40,50 +40,47 @@ Mosaic
 
 ## :four: Testing
 
+| Architecture/backbone/Neck                              | Val_mAP50 | LB_mAP50  | optimizer                                              | class_loss, bbox_loss   | batch_size, epochs |      ETC       |
+| ------------------------------------------------------- | :-------: | :-------: | :----------------------------------------------------- | :---------------------- | :----------------- | :------------: |
+| Faster R-CNN / ResNet50 / FPN                           |           |   0.428   | SGD, StepLR, lr=2e-2                                   | CE, L1Loss              | 2, 12              |      [1]       |
+| **Cascade R-CNN** / ResNet50 / FPN                      |   0.617   |   0.349   | SGD, StepLR, lr=1e-3                                   | CE, SmoothL1Loss        | 4, 37              |                |
+| **Cascade R-CNN** / ResNet101 / FPN                     |   0.425   |   0.250   | SGD, StepLR, lr=1e-3                                   | CE, SmoothL1Loss        | 4, 36              |                |
+| **Cascade R-CNN** / ResNet50 / FPN                      |   0.715   | **0.521** | SGD, **CosineAnnealing**, lr=1e-3 ~ 5e-6               | CE, SmoothL1Loss        | 4, 36              | [2], 이후 적용 |
+| Cascade R-CNN / ResNet50 / **RFP+SAC**  **(DetectoRS)** |   0.810   | **0.559** | SGD, CosineAnnealing, lr=1e-3 ~ 5e-6                   | CE, SmoothL1Loss        | 4, 36              |                |
+| Cascade R-CNN / **Swin base** / FPN                     |   0.620   |   0.540   | **AdamW, CosineAnnealingWarmRestarts, lr=1e-5 ~ 5e-6** | **FocalLoss, DIoULoss** | 4, 12*             |      [3]       |
+| Cascade R-CNN / **Swin large** / FPN                    |           |           | AdamW, CosineAnnealingWarmRestarts, **lr=5e-5 ~ 5e-6** | FocalLoss, DIoULoss     | 4, 48              |      [4]       |
+| Cascade R-CNN / Swin large / FPN                        |           |           | AdamW, CosineAnnealingWarmRestarts, **lr=3e-5 ~ 5e-6** | FocalLoss, DIoULoss     | 4, 48              |      [5]       |
+|                                                         |           |           |                                                        |                         |                    |                |
+
+**[1] Baseline**
+
 - Data argument: Resize(1024, 1024), RandomFlip(p=0.5), Normalize
 
-| Architecture/backbone/Neck          | mAP50                 | optimizer             | loss (class, bbox) | batch_size, epochs | ETC                                    |
-| ----------------------------------- | --------------------- | --------------------- | ------------------ | ------------------ | -------------------------------------- |
-| Faster R-CNN / ResNet50 / FPN       | LB: 0.428             | SGD, StepLR, lr=0.02  | CE, L1Loss         | 2, 12              | baseline에 있는 data argument   그대로 |
-| **Cascade R-CNN** / ResNet50 / FPN  | Val: 0.6--, LB: 0.349 | SGD, StepLR, lr=0.001 | CE, SmoothL1Loss   | 4, 37              |                                        |
-| **Cascade R-CNN** / ResNet101 / FPN | Val: 0.4--, LB: 0.250 | SGD, StepLR, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                        |
-
----
-
-- Data argument
-  - RandomRotate90, GaussNoise(p=0.5), Resize(1024, 1024), RandomFlip(p=0.5), Normalize
-  - Blur, MedianBLur
-  - RandomBrightnessContrast, CLAHE, RandomGamma
-  - HueSatuationValue, RGBShift
-
-| Architecture/backbone/Neck                                   | mAP50                 | optimizer                          | loss (class, bbox) | batch_size, epochs | ETC                                      |
-| ------------------------------------------------------------ | --------------------- | ---------------------------------- | ------------------ | ------------------ | ---------------------------------------- |
-| **Cascade R-CNN** / ResNet50 / FPN                           | Val: 0.715, LB: 0.521 | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              | Data argument 추가                       |
-| **Cascade R-CNN** / ResNet50 / **RFP+SAC**  **(DetectoRS)**  | Val: , LB:            | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
-| **Cascade R-CNN** / ResNet101 / **RFP+SAC**  **(DetectoRS)** + | Val: , LB:            | SGD, **CosineAnnealing**, lr=0.001 | CE, SmoothL1Loss   | 4, 36              |                                          |
-|                                                              |                       |                                    |                    |                    |                                          |
-|                                                              |                       |                                    |                    |                    |                                          |
-|                                                              |                       |                                    |                    |                    | Stratified Group k-Fold Cross-Validation |
-
-
-
-Data argument
+**[2] Data argument**
 
 - RandomRotate90, GaussNoise(p=0.5), Resize(1024, 1024), RandomFlip(p=0.5), Normalize
-
 - Blur, MedianBLur
 - RandomBrightnessContrast, CLAHE, RandomGamma
 - HueSatuationValue, RGBShift
 
-MMDetection 논문 참고
+**[3] overfitting 대폭 감소**
 
-- **Hybrid Task Cascade** : 가장 높은 성능을 보인 모델
+- soft_nms 적용
 
-Swin Tran- + HTC 조합
+- 36epoch으로 설정했으나, OutOfMemory로 12 epoch 밖에 안 돔
 
+**[4]**
 
+- [Swin Transformer object detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)에 맞춰 버전 변경, 맞춰서 코드 수정
+- score_thr=0.0
+- soft_nms 적용
+- anchor aspect_ratio=[0.5, 1.0, 2.0] => [0.33, 1.0, 2.0, 3.0]
 
+**[5] Data argument 추가**
 
+- Mosaic, MixUp, Multi-size training (384, 384), (512, 512), (768, 768), (1024, 1024)
+- TTA with Multi-size images
+- 효율적인 학습을 위해 Mixed Precision (NVIDIA apex) 사용
 
 ## :six: Furthermore...
 
