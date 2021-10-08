@@ -71,16 +71,20 @@ Mosaic
 
 **[4]**
 
-- [Swin Transformer object detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)에 맞춰 버전 변경, 맞춰서 코드 수정
+- [Swin Transformer object detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)에 맞춰 mmdetection 2.11.0으로 버전 변경, 맞춰서 코드 수정
 - score_thr=0.0
 - soft_nms 적용
 - anchor aspect_ratio=[0.5, 1.0, 2.0] => [0.33, 1.0, 2.0, 3.0]
 
 **[5] Data argument 추가**
 
-- Mosaic, MixUp, Multi-size training (384, 384), (512, 512), (768, 768), (1024, 1024)
+- Multi-size training (384, 384), (512, 512), (768, 768), (1024, 1024)
+
 - TTA with Multi-size images
+
 - 효율적인 학습을 위해 Mixed Precision (NVIDIA apex) 사용
+
+  > Mosaic, MixUp은 mmdetection 2.11.0에서 제공 안 함
 
 ## :six: Furthermore...
 

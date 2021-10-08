@@ -138,6 +138,12 @@ https://github.com/open-mmlab/mmcv/blob/c47c9196d067a0900b7b8987a8e82768edab2fff
 
 Mixed Precision
 
+```python
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
+
 https://hoya012.github.io/blog/Mixed-Precision-Training/
 
 https://bo-10000.tistory.com/32
