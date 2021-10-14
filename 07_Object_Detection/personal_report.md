@@ -34,7 +34,7 @@
 **[1] Data argument**
 
 - RandomRotate90, GaussNoise(p=0.5), Resize(1024, 1024), RandomFlip(p=0.5), Normalize
-- Blur, MedianBLur
+- Blur, MedianBlur
 - RandomBrightnessContrast, CLAHE, RandomGamma
 - HueSatuationValue, RGBShift
 
@@ -55,7 +55,6 @@
 
 - Multi-size training (384, 384), (512, 512), (768, 768), (1024, 1024) & TTA with Multi-size images
 
-
 **[5] Yolov5 기본**
 
 - Yolov5에서 기본으로 제공하는 data argument(Mosaic 포함) + img-size=(512, 512)
@@ -67,8 +66,8 @@
 
 |   비교   | 모델 (swin, yolov5은 large / resnet은 101)                   |
 | :------: | :----------------------------------------------------------- |
-| **성능** | cascade rcnn+swin > cascade rcnn+resnet(detectoRS) > Yolov5 <br/>> cascade rcnn+resnet > faster rcnn |
-| **속도** | Yolov5 > faster rcnn > cascade rcnn+resnet <br/>> cascade rcnn+resnet(detectoRS) > cascade rcnn+swin |
+| **성능** | cascade rcnn+swin > cascade rcnn+resnet(detectoRS) > Yolov5 > cascade rcnn+resnet > faster rcnn |
+| **속도** | Yolov5 > faster rcnn > cascade rcnn+resnet > cascade rcnn+resnet(detectoRS) > cascade rcnn+swin |
 
 |       비교       | 속도 및 성능 비례                                            |
 | :--------------: | :----------------------------------------------------------- |
@@ -77,8 +76,6 @@
 |  **optimizer**   | Adam > AdamW > SGD                                           |
 | **lr scheduler** | CosineAnnealingWarmRestarts > CosineAnnealing > ReduceLROnPlateau > StepLR |
 |     **nms**      | cluster_nms(예상, 사용 못해봄) > soft_nms > nms              |
-
-
 
 - Train : Valid set, 9:1로 분할
 
@@ -121,3 +118,8 @@
 
 
 [↩️ Go Back](https://github.com/lisy0123/Boostcamp_AI_Tech)
+
+
+
+
+
