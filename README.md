@@ -52,9 +52,17 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week09** | **[Object Detection](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/07_Object_Detection)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week09.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week09.png) |
 | **Week10** | **[Object Detection](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/07_Object_Detection)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week10.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week10.png) |
-| **Week11** | **[:star: Trash Object Detection Competition](https://github.com/boostcampaitech2/object-detection-level2-cv-18/tree/LSE)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week11.png) |
+| **Week11** | **[:star: Trash Object Detection Competition](https://github.com/boostcampaitech2/object-detection-level2-cv-18/tree/LSE)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week11.png) |
 
 
+
+## :five: Lv.03 CV P-Stage
+
+|   Weeks    |                           Study01                            |                    Weekly Review / Report                    |                           Schedule                           |
+| :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **Week12** | **[Object Segmentation](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/08_Object_Segmentation)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week12.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week12.png) |
+| **Week13** | **[Object Segmentation](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/08_Object_Segmentation)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week13.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week13.png) |
+| **Week14** |       **:star: Trash Object Segmentation Competition**       |                                                              | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week14.png) |
 
 
 
