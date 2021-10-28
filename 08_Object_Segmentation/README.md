@@ -1,4 +1,4 @@
-# Segmentation
+# Object Segmentation
 
 | Num  | Title |
 | :--: | :---: |

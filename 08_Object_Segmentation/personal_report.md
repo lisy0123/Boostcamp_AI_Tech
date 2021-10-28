@@ -1,4 +1,4 @@
-# Trash Object Detection
+# Trash Object Segmentation
 
 ## :one: EDA
 

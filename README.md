@@ -6,8 +6,8 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 ### Recommended project
 
-- **[Mask Image Classification Competition](https://github.com/boostcampaitech2/image-classification-level1-01)**
-- **[Trash Object Detection Competition](https://github.com/boostcampaitech2/object-detection-level2-cv-18)**
+- **[Mask Image Classification Competition](https://github.com/lisy0123/image-classification-level1-01)**
+- **[Trash Object Detection Competition](https://github.com/lisy0123/object-detection-level2-cv-18)**
 
 ## :zero: Curriculum
 
@@ -28,7 +28,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 |   Weeks    |                           Study01                            |                       Study02 / Report                       |                    Weekly Review / Report                    |                           Schedule                           |
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week04** | **[Data Visualization](https://github.com/lisy0123/Boostcamp_AI/blob/main/Data_Visualization)** | **[Image Classification](https://github.com/lisy0123/Boostcamp_AI/blob/main/04_Image_Classification)** | **[:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week04.md)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week04.png) |
-| **Week05** | **[:star: Mask Image Classification Competition](https://github.com/boostcampaitech2/image-classification-level1-01)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/personal_report.md)** | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week05.png) |
+| **Week05** | **[:star: Mask Image Classification Competition](https://github.com/lisy0123/image-classification-level1-01)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/personal_report.md)** | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/04_Image_Classification/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week05.png) |
 
 
 
@@ -52,7 +52,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week09** | **[Object Detection](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/07_Object_Detection)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week09.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week09.png) |
 | **Week10** | **[Object Detection](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/07_Object_Detection)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week10.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week10.png) |
-| **Week11** | **[:star: Trash Object Detection Competition](https://github.com/boostcampaitech2/object-detection-level2-cv-18)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week11.png) |
+| **Week11** | **[:star: Trash Object Detection Competition](https://github.com/lisy0123/object-detection-level2-cv-18)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week11.png) |
 
 
 

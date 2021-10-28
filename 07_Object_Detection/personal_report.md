@@ -107,7 +107,7 @@
 
 우선 모델 하나 돌리는데 시간이 오래 걸리고, 초반에 `OutOfMemory`로 시간을 많이 소비했다. 3주였지만, 저번 대회에 비해 여러 가지 많이 실험해볼 수 없어서 아쉬웠다. 서버가 한 개 더 있었으면 하나는 대회용, 하나는 개인 공부용으로 돌렸을 텐데 아쉬웠다. 여러가지 많이 실험해보지는 못했지만, 그에 반비례해서 저번 대회보다 많은 논문을 읽고 리서치를 한 것 같다. 이번 대회는 최대한 다양한 모델들을 다뤄보기가 목표였는데, 어느 정도 달성한 것 같다. (faster rcnn부터 cascade rcnn, detectoRS, swin, Yolov5, wandb sweep, pseudo, 다양한 loss, lr scheduler, multi-scale, Mixed Precision, 등을 사용해봤다.) **htc+swin**을 해보고 싶었는데, `htc_without_semantic`을 사용해도 계속 mask 에러가 발생했서 알아보니까 semantic annotations 없으면 아애 못 쓰는 모델이었어서 조금 아쉬웠다. 그리고 처음부터 python script로 시작해서 저번보다 직관적이고, 코드 작성 및 수정이 편했다. 딱히 hyperparameter는 건들지 않고 overfitting 확인을 위해 제출해보는 식으로 진행했다. EDA 부분에 있어서는 아쉬움이 많은 대회였다. 리더보드 신경 안 쓰니까 진짜 공부를 한 느낌이었지만, 이에 더불어 현타가 또 오는 것 같기도 했다. 잘못하다가는 이것도 저것도 아닐까 걱정이 되면서 대회를 마무리 지었다.
 
-> [**Reference sites**](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/reference.md) / [**Personal repo**](https://github.com/boostcampaitech2/object-detection-level2-cv-18/tree/LSE) (추후에 여유로울 때, 다시 정리할 예정)
+> [**Reference sites**](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/07_Object_Detection/reference.md) / [**Personal repo**](https://github.com/lisy0123/object-detection-level2-cv-18/tree/LSE) (추후에 여유로울 때, 다시 정리할 예정)
 
 
 
