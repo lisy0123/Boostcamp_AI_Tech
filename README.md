@@ -2,8 +2,6 @@
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
-> **[:point_right:  Self DL Study]()**
-
 ### Recommended project
 
 - **[Mask Image Classification Competition](https://github.com/lisy0123/image-classification-level1-01)**
