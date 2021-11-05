@@ -1,3 +1,5 @@
+# Reference
+
 Loss Function Library
 
 https://www.kaggle.com/bigironsphere/loss-function-library-keras-pytorch
@@ -23,6 +25,8 @@ https://github.com/HRNet/HRNet-Semantic-Segmentation
 https://whereisend.tistory.com/232
 
 https://ambitious-posong.tistory.com/113?category=929888
+
+https://github.com/HRNet/HRNet-Semantic-Segmentation/blob/f9fb1ba66ff8aea29d833b885f08df64e62c2b23/lib/models/seg_hrnet_ocr.py
 
 mmsegmentation
 
