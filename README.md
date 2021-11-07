@@ -5,7 +5,9 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 ### Recommended project
 
 - **[Mask Image Classification Competition](https://github.com/lisy0123/image-classification-level1-01)**
+
 - **[Trash Object Detection Competition](https://github.com/lisy0123/object-detection-level2-cv-18)**
+
 - **Trash Object Segmentation Competition**
 
 ## :zero: Curriculum
