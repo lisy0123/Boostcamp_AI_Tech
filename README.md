@@ -2,6 +2,12 @@
 
 Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_ai.html)** daily reports. (Written in KR)
 
+### Recommended project
+
+- **[Mask Image Classification Competition](https://github.com/lisy0123/image-classification-level1-01)**
+- **[Trash Object Detection Competition](https://github.com/lisy0123/object-detection-level2-cv-18)**
+- **Trash Object Segmentation Competition**
+
 ## :zero: Curriculum
 
 <img src="https://user-images.githubusercontent.com/75282888/127832169-4b4977ba-4998-48da-b4ad-4cc422dfbe4b.png" alt="d" style="zoom:50%;" />
@@ -51,7 +57,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week12** | **[Object Segmentation](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/08_Object_Segmentation)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week12.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week12.png) |
 | **Week13** | **[Object Segmentation](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/08_Object_Segmentation)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week13.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week13.png) |
-| **Week14** | [**:star: Trash Object Segmentation Competition**](https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-18) | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week14.png) |
+| **Week14** | **[:star: Trash Object Segmentation Competitin](https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-18)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week14.png) |
 
 
 
