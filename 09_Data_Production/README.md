@@ -10,7 +10,8 @@
 |  6   |     Annotation Guide      |
 |  7   |      성능 평가 방식       |
 |  8   |   Annotation Tool 소개    |
-|      |                           |
+|  9   |   Text Detection 소개 2   |
+|  10  |       Bag of tricks       |
 
 :label: Updating...
 
