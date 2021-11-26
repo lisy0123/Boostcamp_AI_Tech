@@ -58,7 +58,7 @@
 
 ## :card_index_dividers: Weekly Review
 
-슬슬 나는 개인적으로 Pose estimation 공부를 시작해야겠다. 사이드 프로젝트로는 3D pose estimation에 maya, unreal해서 real-time으로 돌려볼 수 있으면 좋겠는데, 일단은 할 수 있는데까지 해봐야겠다. 그리고 Maya 같은 경우에는 Zbrush로 모델해서 auto rigging tools script 짠 거로 적용해서 적용한 어셋 만들고, 소켓통신하면 Pose estimation은 붙일 수 있을 것 같은데, unreal로 real-time할려면 어떻게 해야할지는 조금 더 고민해봐야겠다. Unreal보다 Unity가 더 익숙하긴 한데, 무엇으로 구현할지도 생각해봐야겠다.
+슬슬 나는 개인적으로 Pose estimation 공부를 시작해야겠다. 사이드 프로젝트로는 3D pose estimation에 maya, unreal해서 real-time으로 돌려볼 수 있으면 좋겠는데, 일단은 할 수 있는데까지 해봐야겠다. 그리고 Maya 같은 경우에는 muscle 공부도 해야 하니까 Zbrush로 모델링하고 auto rigging tools script 클린코드로 짜서 적용한 어셋 만들고, 소켓통신하면 Pose estimation은 붙일 수 있을 것 같은데, unreal로 real-time할려면 어떻게 해야할지는 조금 더 고민해봐야겠다. Unreal보다 Unity가 더 익숙하긴 한데, 무엇으로 구현할지도 생각해봐야겠다.
 
 
 
