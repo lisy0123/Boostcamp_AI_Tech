@@ -43,6 +43,7 @@
 <details>
   <summary><b> Day04 </b></summary>
   <div markdown="1">
+
 - 프로젝트 focus을 어디에 맞춰야 하는지
 
 - OCR 주제 확정
@@ -55,7 +56,6 @@
 <details>
   <summary><b> Day05 </b></summary>
   <div markdown="1">
-
 
 - 주제 세부 확정
 
