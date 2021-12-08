@@ -71,8 +71,6 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 | **Week17** | **[Model Optimization](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/10_Model_Optimization)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week17.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week17.png) |
 | **Week18** |                Model Optimization Competition                | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/10_Model_Optimization/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week18.png) |
 
-
-
 :label: Updating...
 
 
