@@ -8,7 +8,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 
 - **[Trash Object Detection Competition](https://github.com/lisy0123/object-detection-level2-cv-18)**
 
-- [**Trash Object Segmentation Competition**](https://github.com/lisy0123/semantic-segmentation-level2-cv-18)
+- **[Trash Object Segmentation Competition](https://github.com/lisy0123/semantic-segmentation-level2-cv-18/tree/main/_SUB)**
 
 ## :zero: Curriculum
 
@@ -53,7 +53,7 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week12** | **[Object Segmentation](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/08_Object_Segmentation)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week12.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week12.png) |
 | **Week13** | **[Object Segmentation](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/08_Object_Segmentation)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week13.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week13.png) |
-| **Week14** | **[:star: Trash Object Segmentation Competition](https://github.com/lisy0123/semantic-segmentation-level2-cv-18)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week14.png) |
+| **Week14** | **[:star: Trash Object Segmentation Competition](https://github.com/lisy0123/semantic-segmentation-level2-cv-18/tree/main/_SUB)** | **[Personal Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/personal_report.md)**, **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/08_Object_Segmentation/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week14.png) |
 
 ---
 
@@ -69,7 +69,15 @@ Collection of **[boostcamp AI Tech 2nd](https://boostcamp.connect.or.kr/program_
 |   Weeks    |                           Study01                            |                    Weekly Review / Report                    |                           Schedule                           |
 | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Week17** | **[Model Optimization](https://github.com/lisy0123/Boostcamp_AI_Tech/tree/main/10_Model_Optimization)** | [:clipboard:](https://github.com/lisy0123/Boostcamp_AI/blob/main/APW/Week17.md) | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week17.png) |
-| **Week18** |                Model Optimization Competition                | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/10_Model_Optimization/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week18.png) |
+| **Week18** | **[Model Optimization Competition](https://github.com/lisy0123/model-optimization-level3-cv-18)** | **[Team Report](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/10_Model_Optimization/team_report.pdf)** | [:calendar:](https://github.com/lisy0123/Boostcamp_AI_Tech/blob/main/Schedule/week18.png) |
+
+**:warning: Wanted to focus on studying what I originally wanted to do, and wanted to use Maya and Unreal in the final project, I left the Bootcamp and personally prepared for the final project.**
+
+---
+
+## :six: My Own Final Project
+
+### [3D Pose Estimation](https://github.com/lisy0123/3D_Pose_Estimation)
 
 :label: Updating...
 
